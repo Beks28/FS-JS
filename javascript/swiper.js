@@ -13,3 +13,35 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
+  var swiper = new Swiper(".myySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    setInterval(openModal, 120000);
+  });
+
+  function openModal() {
+    document.getElementById("spamModal").style.display = "block";
+    setTimeout(showCloseButton, 5000);
+  }

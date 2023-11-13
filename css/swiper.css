@@ -41,8 +41,19 @@ display: none;
     display: none;
 }
 
+#Srt{
+ background-color: blueviolet;
+}
 
+#Srt .swiper-slide{
+   background-image: url(https://99px.ru/sstorage/53/2014/06/tmb_105963_2159.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 
+#Srt p{
+    color: white;
+}
 
 
 

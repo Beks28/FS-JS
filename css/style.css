@@ -167,3 +167,26 @@ justify-content: center;
 margin-top: -15px;
  }
 
+
+ .modalka {
+   display: none;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 197px;
+   background-color: #fff;
+   border: 6px solid #18c139;
+   box-shadow: 0 0 10px #0044d3;
+}
+.close-btn {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   cursor: pointer;
+   font-size: 39px;
+}
+
+.reklama{
+   font-size: 53px;
+}
